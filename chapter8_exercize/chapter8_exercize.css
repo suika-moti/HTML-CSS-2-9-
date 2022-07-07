@@ -1,0 +1,64 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.sidebar-heading {
+  padding: 20px 0 20px 20px;
+}
+
+.sidebar-heading:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.contents {
+  width: 100%;
+  display: inline-block;
+}
+
+.contents-item {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  float: left;
+}
+
+.contents-item:nth-child(1) {
+  background-color: orange;
+}
+
+.contents-item:nth-child(2) {
+  margin: 0 5%;
+}
+
+.contents-item:nth-child(5) {
+  background-color: orange;
+  margin:40px 5% 0 5%;
+}
+
+.contents-item:nth-child(8) {
+  margin: 0 5%;
+}
+
+
+.contents-item:nth-child(9) {
+  background-color: orange;
+}
+
+.tyuukann {
+  margin: 40px 0;
+}
